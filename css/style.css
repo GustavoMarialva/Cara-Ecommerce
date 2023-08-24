@@ -132,3 +132,56 @@ body {
   font-size: 15px;
   font-weight: 600;
 }
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.features__box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.features__box:hover {
+  box-shadow: 10px 10px 54px rgb(70, 62, 221, 0.1);
+}
+
+.features__text {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+}
+
+.features__text-color1 {
+  background-color: #fddde4;
+}
+.features__text-color2 {
+  background-color: #cdebbc;
+}
+.features__text-color3 {
+  background-color: #d1e8f2;
+}
+.features__text-color4 {
+  background-color: #cdd4f8;
+}
+.features__text-color5 {
+  background-color: #f6dbf6;
+}
+.features__text-color6 {
+  background-color: #fff2e5;
+}
+
+.features__img {
+  width: 100%;
+  margin-bottom: 10px;
+}
