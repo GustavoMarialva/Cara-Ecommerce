@@ -1,0 +1,44 @@
+@import url(./style.css);
+@import url(./about.css);
+
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details {
+  width: 40%;
+}
+
+.details li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.details li ion-icon {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+.details li p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.details span {
+  font-size: 12px;
+}
+
+.details h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+.details h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
