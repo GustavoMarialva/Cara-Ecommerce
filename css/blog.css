@@ -14,6 +14,7 @@
   align-items: center;
   width: 100%;
   position: relative;
+  padding-bottom: 90px;
 }
 
 .blog-img {
@@ -52,4 +53,25 @@
   font-weight: 700;
   color: #c9cbce;
   z-index: -1;
+}
+
+/* Media Querie */
+
+@media (max-width: 477px) {
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  .blog-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blog-img {
+    width: 100%;
+  }
+
+  .blog-details {
+    width: 100%;
+    margin-top: 30px;
+  }
 }
