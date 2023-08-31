@@ -109,3 +109,42 @@
   font-weight: 600;
   color: #000;
 }
+
+/* Media Queries */
+@media (max-width: 835px) {
+  #form-details {
+    padding: 30px;
+  }
+
+  #form-details form {
+    width: 50%;
+  }
+
+  .people {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 477px) {
+  #contact-details {
+    flex-direction: column;
+  }
+
+  .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .map {
+    width: 100%;
+  }
+  #form-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #form-details form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
