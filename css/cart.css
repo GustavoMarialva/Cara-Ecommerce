@@ -1,6 +1,11 @@
 @import url(./style.css);
 @import url(./about.css);
 
+#cart {
+  overflow-x: auto;
+  /* com esse atributo, adiciona um slider na tabela */
+}
+
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -113,5 +118,14 @@
 
 /* Media Queries */
 
-@media (max-width: 834px) {
+@media (max-width: 477px) {
+  #cart-add {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #subtotal,
+  #coupon {
+    width: 100%;
+  }
 }
